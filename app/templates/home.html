@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+JANitors
+SoftDev
+K19: Sessions Greetings
+2022-11-03
+time spent: 2.5 hrs
+ -->
+
+
+<html>
+
+  <head>
+    <title> HOME </title>
+  </head>
+
+  <body>
+
+    <h1>
+      HOME
+    </h1>
+
+    <h3>
+      Logged in as {{user}}
+    </h3>
+
+    <form action="/logout" method="POST">
+      <button type="submit">Logout</button>
+    </form>
+
+    <form action="/create" method="POST">
+      <button type="submit">Create New Story</button>
+    </form>
+
+    <form action="/view" method="POST">
+      <button type="submit">View Past Edited Stories</button>
+    </form>
+    
+    <form action="/edit" method="POST">
+      <button type="submit">Edit Stories</button>
+    </form>
+
+
+  </body>
+
+</html>
+
