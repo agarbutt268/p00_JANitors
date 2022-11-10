@@ -1,12 +1,13 @@
 from flask import Flask, render_template, request, session, redirect
+import sqlite3
+import csv
 
-
+DB_FILE="data.db"
+db = sqlite3.connect(DB_FILE)
+c = db.cursor()
 app = Flask(__name__)    #create Flask object
 
 app.secret_key = 'JANitors_@1'
-
-our_username = 'janitors'
-our_password = 'verycool'
 
 
 @app.route("/", methods=['GET', 'POST'])
