@@ -5,6 +5,10 @@ import csv
 DB_FILE="data.db"
 db = sqlite3.connect(DB_FILE)
 c = db.cursor()
+
+command = 'create table users (username text, password text);'
+c.execute(command)
+
 app = Flask(__name__)    #create Flask object
 
 app.secret_key = 'JANitors_@1'
@@ -16,13 +20,21 @@ def starting():
         return render_template('home.html', user=our_username)
     return render_template('start.html')
 
+
 @app.route("/REGISTER", methods=['GET', 'POST'])
 def register():
-  return render_template('register.html')
-  
+    # to enter registered username and password into data.db
+    our_username = request.form.get('register_username')
+    our_password = request.form.get('register_pswd')
+    command = "insert into user('" + our_username + "'," + our_password + ");"
+    c.execute(command)
+    return render_template('register.html')
+
+
 @app.route("/LOGIN", methods=['GET', 'POST'])
 def login():
-  return render_template('login.html')
+    return render_template('login.html')
+
 
 @app.route("/welcome", methods=['GET', 'POST'])
 def logged_in():
