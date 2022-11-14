@@ -24,4 +24,8 @@ JANitors -- 2022-11-10
 Worked on register.html, created table in database, working on storing user info in register in python file.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+JANitors -- 2022-11-13
+Working on html templates, added to python file, database is working for storing username and password.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ==============================================================
