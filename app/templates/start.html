@@ -7,15 +7,17 @@
 Welcome to the world of stories
 </h1>
 
-<form action="/LOGIN" method="POST">
+<h4>To register, enter your desired username and password.</h4>
+<form action="/register" method="POST">
+  <input type="text" name="register_username">
+  <input type="password" name="register_pswd">
+  <input type="submit" name="sub1">
+</form>
+
+<h4>Have an account? Login!</h4>
+<form action="/login" method="POST">
     <button type="submit">LOGIN</button>
 </form>
-
-<form action="/REGISTER" method="POST">
-    <button type="submit">REGISTER</button>
-</form>
-
-
 
 </body>
 

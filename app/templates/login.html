@@ -1,12 +1,4 @@
 <!DOCTYPE html>
-<!--
-JANitors
-SoftDev
-K19: Sessions Greetings
-2022-11-03
-time spent: 2.5 hrs
- -->
-
 
 <html>
 
@@ -24,6 +16,9 @@ time spent: 2.5 hrs
     <h3>
       Enter your username and password to proceed.
     </h3>
+
+    {{status}}
+
     <form action="/welcome" method="POST">
       <input type="text" name="user_name">
       <input type="password" name="pswd">

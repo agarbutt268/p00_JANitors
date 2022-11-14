@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title> EDIT </title>
+  </head>
+
+  <body>
+    <h1>
+      Add to an existing story
+    </h1>
+
+    {{stories}}
+
+    <h4>Enter the exact title of the story you want to edit (make sure no extra spaces, punctuations, letters, etc.) and the contents you want to add</h4>
+    <form action="/welcome" method="POST">
+      <input type="text" name="story_title">
+      <input type="text" name="edit_story">
+      <input type="submit" name="edited">
+    </form>
+    <br>
+  </body>
+
+</html>
