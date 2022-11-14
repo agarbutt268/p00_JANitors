@@ -1,11 +1,3 @@
-devlog--
-Use keyboard shortcut to jump to end,
- replicate entry template, (Ctrl-Shift up x5, Ctrl-X, Ctrl-V x2)
- modify appropriately.
-Each entry should begin with the following format:
- firstL -- TIMESTAMP\n
-e.g.: 
-clydeS -- 2999-12-31 23:59
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 JANitors
@@ -32,6 +24,10 @@ AdenG -- 2022-11-10 12:56
 --------------------------------------------------------------
 JANitors -- 2022-11-10
 Worked on register.html, created table in database, working on storing user info in register in python file.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+JANitors -- 2022-11-13
+Working on html templates, added to python file, database is working for storing username and password.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ==============================================================
