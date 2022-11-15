@@ -9,10 +9,16 @@
   <body>
     <h1>You have successfully created a new story!</h1>
 
+    <h2>Here it is:</h2>
+      <h3>{{title}}</h3>
+      {{content}}
+      <p>by: {{author}}</p>
+
     <h4>Go back to the main page!</h4>
 
     <form action="/welcome" method="POST">
       <button type="submit">MAIN PAGE</button>
+    </form>
   </body>
 
 </html>

@@ -13,11 +13,13 @@
 
     {{stories}}
 
-    <h4>Enter the exact title of the story you want to edit (make sure no extra spaces, punctuations, letters, etc.) and the contents you want to add</h4>
-    <form action="/welcome" method="POST">
-      <input type="text" name="story_title">
-      <input type="text" name="edit_story">
-      <input type="submit" name="edited">
+    <form action="/edit-response-page" method="POST">
+      <h4>Enter title and story contents that you want to add on to.</h4>
+      <input placeholder="Story Title" type="text" name="edit_name">
+      <br>
+      <textarea rows="4" cols="25" placeholder="A Long Time Ago in a Galaxy Far, Far Away..." name="adding_on"></textarea>
+      <br>
+      <input type="submit" name="sub_addition">
     </form>
     <br>
   </body>
