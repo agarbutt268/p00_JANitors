@@ -28,4 +28,9 @@ JANitors -- 2022-11-13
 Working on html templates, added to python file, database is working for storing username and password.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+JANitors -- 2022-11-14
+Class Time: continued working on html files and adding stories.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+JANitors -- 2022-11-14
+Continued working on adding stories, viewing, and editing stories. Debugged.
 ==============================================================
